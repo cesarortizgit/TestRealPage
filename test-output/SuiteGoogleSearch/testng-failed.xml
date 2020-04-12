@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteGoogleSearch]">
+  <test thread-count="5" name="Search Complete Text(failed)">
+    <classes>
+      <class name="com.realpage.test.GoogleChromeTest">
+        <methods>
+          <include name="googleSearch"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.realpage.test.GoogleChromeTest -->
+    </classes>
+  </test> <!-- Search Complete Text(failed) -->
+  <test thread-count="5" name="Suggested Search(failed)">
+    <classes>
+      <class name="com.realpage.test.GoogleChromeSuggestTest">
+        <methods>
+          <include name="googleSearchSuggest"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.realpage.test.GoogleChromeSuggestTest -->
+    </classes>
+  </test> <!-- Suggested Search(failed) -->
+</suite> <!-- Failed suite [SuiteGoogleSearch] -->

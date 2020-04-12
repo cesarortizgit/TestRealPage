@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteSearch" duration-ms="54525" started-at="2020-04-11T21:17:11 COT" finished-at="2020-04-11T21:18:06 COT">
+    <groups>
+    </groups>
+    <test name="Complete Search" duration-ms="11817" started-at="2020-04-11T21:17:11 COT" finished-at="2020-04-11T21:17:23 COT">
+      <class name="com.realpage.test.GoogleChromeTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeTest@6737fd8f]" name="beforeClass" is-config="true" duration-ms="6484" started-at="2020-04-11T21:17:11 COT" finished-at="2020-04-11T21:17:18 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.realpage.test.GoogleChromeTest@6737fd8f]" name="googleSearch" duration-ms="4575" started-at="2020-04-11T21:17:18 COT" finished-at="2020-04-11T21:17:23 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeTest@6737fd8f]" name="afterClass" is-config="true" duration-ms="706" started-at="2020-04-11T21:17:23 COT" finished-at="2020-04-11T21:17:23 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeTest -->
+    </test> <!-- Complete Search -->
+    <test name="Wrong Search" duration-ms="8441" started-at="2020-04-11T21:17:23 COT" finished-at="2020-04-11T21:17:32 COT">
+      <class name="com.realpage.test.GoogleChromeWrongSearchTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeWrongSearchTest@394e1a0f]" name="beforeClass" is-config="true" duration-ms="5296" started-at="2020-04-11T21:17:23 COT" finished-at="2020-04-11T21:17:29 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="wrongGoogleSearch()[pri:0, instance:com.realpage.test.GoogleChromeWrongSearchTest@394e1a0f]" name="wrongGoogleSearch" duration-ms="2383" started-at="2020-04-11T21:17:29 COT" finished-at="2020-04-11T21:17:31 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongGoogleSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeWrongSearchTest@394e1a0f]" name="afterClass" is-config="true" duration-ms="754" started-at="2020-04-11T21:17:31 COT" finished-at="2020-04-11T21:17:32 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeWrongSearchTest -->
+    </test> <!-- Wrong Search -->
+    <test name="Blank Search" duration-ms="5649" started-at="2020-04-11T21:17:32 COT" finished-at="2020-04-11T21:17:37 COT">
+      <class name="com.realpage.test.GoogleChromeBlankSearchTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeBlankSearchTest@3b088d51]" name="beforeClass" is-config="true" duration-ms="4689" started-at="2020-04-11T21:17:32 COT" finished-at="2020-04-11T21:17:36 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="blanKGoogleSearch()[pri:0, instance:com.realpage.test.GoogleChromeBlankSearchTest@3b088d51]" name="blanKGoogleSearch" duration-ms="264" started-at="2020-04-11T21:17:36 COT" finished-at="2020-04-11T21:17:37 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blanKGoogleSearch -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeBlankSearchTest@3b088d51]" name="afterClass" is-config="true" duration-ms="688" started-at="2020-04-11T21:17:37 COT" finished-at="2020-04-11T21:17:37 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeBlankSearchTest -->
+    </test> <!-- Blank Search -->
+    <test name="Suggest Search" duration-ms="9583" started-at="2020-04-11T21:17:37 COT" finished-at="2020-04-11T21:17:47 COT">
+      <class name="com.realpage.test.GoogleChromeSuggestTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTest@3712b94]" name="beforeClass" is-config="true" duration-ms="4527" started-at="2020-04-11T21:17:37 COT" finished-at="2020-04-11T21:17:42 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="googleSearchSuggest()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTest@3712b94]" name="googleSearchSuggest" duration-ms="4381" started-at="2020-04-11T21:17:42 COT" finished-at="2020-04-11T21:17:46 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchSuggest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTest@3712b94]" name="afterClass" is-config="true" duration-ms="671" started-at="2020-04-11T21:17:46 COT" finished-at="2020-04-11T21:17:47 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeSuggestTest -->
+    </test> <!-- Suggest Search -->
+    <test name="Compare the first result of the search" duration-ms="9491" started-at="2020-04-11T21:17:47 COT" finished-at="2020-04-11T21:17:57 COT">
+      <class name="com.realpage.test.GoogleChromeSuggestTestCompareResult">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestCompareResult@536aaa8d]" name="beforeClass" is-config="true" duration-ms="5033" started-at="2020-04-11T21:17:47 COT" finished-at="2020-04-11T21:17:52 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="suggestTestCompareResult()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestCompareResult@536aaa8d]" name="suggestTestCompareResult" duration-ms="3731" started-at="2020-04-11T21:17:52 COT" finished-at="2020-04-11T21:17:56 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suggestTestCompareResult -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestCompareResult@536aaa8d]" name="afterClass" is-config="true" duration-ms="723" started-at="2020-04-11T21:17:56 COT" finished-at="2020-04-11T21:17:57 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeSuggestTestCompareResult -->
+    </test> <!-- Compare the first result of the search -->
+    <test name="Compare the title of the page" duration-ms="9380" started-at="2020-04-11T21:17:57 COT" finished-at="2020-04-11T21:18:06 COT">
+      <class name="com.realpage.test.GoogleChromeSuggestTestComparePage">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestComparePage@57e1b0c]" name="beforeClass" is-config="true" duration-ms="4150" started-at="2020-04-11T21:17:57 COT" finished-at="2020-04-11T21:18:01 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="compareTitleofPage()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestComparePage@57e1b0c]" name="compareTitleofPage" duration-ms="4498" started-at="2020-04-11T21:18:01 COT" finished-at="2020-04-11T21:18:05 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareTitleofPage -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.realpage.test.GoogleChromeSuggestTestComparePage@57e1b0c]" name="afterClass" is-config="true" duration-ms="724" started-at="2020-04-11T21:18:05 COT" finished-at="2020-04-11T21:18:06 COT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.realpage.test.GoogleChromeSuggestTestComparePage -->
+    </test> <!-- Compare the title of the page -->
+  </suite> <!-- SuiteSearch -->
+</testng-results>

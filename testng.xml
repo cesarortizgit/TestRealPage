@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SuiteSearch">
+  <test name="Complete Search">
+    <classes>
+      <class name="com.realpage.test.GoogleChromeTest"/>
+    </classes>
+  </test> 
+  <test name="Wrong Search">
+    <classes>
+      <class name="com.realpage.test.GoogleChromeWrongSearchTest"/>
+    </classes>
+  </test> 
+  <test name="Blank Search">
+    <classes>
+      <class name="com.realpage.test.GoogleChromeBlankSearchTest"/>
+    </classes>
+  </test> 
+  <test name="Suggest Search">
+    <classes>     
+      <class name="com.realpage.test.GoogleChromeSuggestTest"/>     
+    </classes>
+  </test> 
+  <test name="Compare the first result of the search">
+    <classes>     
+      <class name="com.realpage.test.GoogleChromeSuggestTestCompareResult"/>     
+    </classes>
+  </test> 
+  <test name="Compare the title of the page">
+    <classes>     
+      <class name="com.realpage.test.GoogleChromeSuggestTestComparePage"/>     
+    </classes>
+  </test> 
+</suite> 
